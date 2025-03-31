@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 
 This project showcases WordPress Bedrock, along with the updated Gutenberg editor using react 
 
