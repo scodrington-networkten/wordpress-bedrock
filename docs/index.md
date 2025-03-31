@@ -1,7 +1,4 @@
-                         ---
-layout: default
----
 
-# Welcome to My Website!
+# The Project
 
-This site is powered by GitHub Pages and uses the **Cayman** theme.
+This project showcases WordPress Bedrock, along with the updated Gutenberg editor using react 
