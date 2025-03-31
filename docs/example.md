@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Example
+title: Example Page
 ---
 
 ##example page
-this is an example
+this is an example woo
