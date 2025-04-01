@@ -54,6 +54,10 @@
 
   .site-nav {
     padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $site-nav-color-fixed;
   }
   .nav {
     flex-direction: row;
