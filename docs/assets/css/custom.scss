@@ -1,5 +1,14 @@
 ---
 ---
 
+@import 'variables';
 @import 'navigation';
 
+
+.main-content{
+  color: $body-text-color;
+
+  h1,h2,h3,h4,h5,h6{
+    color: $header-text-color;
+  }
+}
