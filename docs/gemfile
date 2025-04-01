@@ -1,3 +1,8 @@
 source "http://rubygems.org"
-gem "github-pages",
-group: :jekyll_plugins
+# Use the GitHub Pages gem, which includes the necessary dependencies
+gem "github-pages", group: :jekyll_plugins
+# Include jekyll-sass-converter for SCSS/Sass compilation
+gem "jekyll-sass-converter"
+gem 'sassc'
+
+

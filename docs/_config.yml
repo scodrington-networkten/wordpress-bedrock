@@ -1,3 +1,11 @@
 theme: "jekyll-theme-cayman"
 title: "WordPress Bedrock"
 description: "This page showcases the WordPress Bedrock project and outlines its functionality"
+# Sass configuration
+sass:
+    sass_dir: assets/scss    # SCSS files should be in assets/sass
+    css_dir: assets/css      # The compiled CSS files should be in assets/css
+    style: compressed        # This is the output style (can be 'compressed' or 'expanded')
+
+# Other Jekyll settings (Optional, depending on your theme setup)
+markdown: kramdown
