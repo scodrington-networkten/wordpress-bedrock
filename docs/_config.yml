@@ -1,11 +1,22 @@
-theme: "jekyll-theme-cayman"
-title: "WordPress Bedrock"
-description: "This page showcases the WordPress Bedrock project and outlines its functionality"
-# Sass configuration
-sass:
-    sass_dir: assets/scss    # SCSS files should be in assets/sass
-    css_dir: assets/css      # The compiled CSS files should be in assets/css
-    style: compressed        # This is the output style (can be 'compressed' or 'expanded')
+# Site settings
+title: Your Site Title
+description: A description of your site
+#baseurl: ""  # Keep this blank if your site is at the root level (e.g., https://example.com)
+#url: "https://yourusername.github.io"  # Replace with your site's URL
 
-# Other Jekyll settings (Optional, depending on your theme setup)
+# Cayman theme settings (Optional, based on the Cayman theme defaults)
+theme: jekyll-theme-cayman
+
+# Sass settings for SCSS processing
+sass:
+    sass_dir: _sass            # The SCSS files are stored in the '_sass' directory (not 'assets/sass')
+    css_dir: _site/assets/css  # The compiled CSS will be placed in '_site/assets/css'
+    style: compressed          # Choose 'compressed' for minified output or 'expanded' for readable CSS
+
+# Permalink settings (Optional, adjust as needed)
+#permalink: pretty  # Example: '/:categories/:title/'
+
+# Markdown settings (Optional, depending on your needs)
 markdown: kramdown
+
+# Other settings can be added here as per your project requirements

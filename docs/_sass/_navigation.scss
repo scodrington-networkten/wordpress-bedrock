@@ -1,0 +1,51 @@
+// General navigation container styling
+.site-nav {
+  background-color: #0077b6; // Cayman theme's background color for nav
+  padding: 1rem 0;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+// Style the list for the navigation links
+.nav {
+  list-style: none; // Remove default list styling
+  display: flex; // Flexbox to make it horizontal
+  justify-content: center; // Center the nav items horizontally
+  margin: 0;
+  padding: 0;
+  border: solid 1px red;
+}
+
+// Style each navigation item (li)
+.nav-item {
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+//each nav link
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: block;
+
+  &:hover {
+    background-color: #00b4d8;
+    color: #ffffff;
+  }
+
+  &:active {
+    background-color: #0077b6;
+  }
+}
+
+// Optionally, style the links when active
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+}
+
